@@ -571,7 +571,7 @@ const RepayLoan = (props) => {
                 </div>
                 <div className="details-box shadow-md w-full md:w-1/2 px-4 py-4 sm:px-2 sm:py-2 flex flex-col items-center justify-center">
                   <h3 className="text-xl font-bold text-center">
-                    Ampire Finance Private Limited
+                    SnapPaisa Financial Services
                   </h3>
                   <h4 className="text-lg font-semibold">Scan to Pay</h4>
                   <div className="border border-gray rounded-md p-3 sm:p-2 mb-2">

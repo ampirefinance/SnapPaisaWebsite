@@ -79,11 +79,11 @@ const Footer = () => {
                                  
                                 </div>
                                 <div style={{ marginTop: '1rem', padding: '1rem', background: 'rgba(255, 107, 53, 0.1)', borderRadius: '12px', border: '1px solid rgba(255, 107, 53, 0.2)' }}>
-                                    <p style={{ fontWeight: 'bold', marginBottom: '8px', color: '#1E3A8A' }}>Powered by Ampire Finance</p>
+                                    <p style={{ fontWeight: 'bold', marginBottom: '8px', color: '#1E3A8A' }}>Powered by SnapPaisa</p>
                                     <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '8px' }}>
                                         <img 
                                             src={AmpireLogo} 
-                                            alt="Ampire Finance Logo" 
+                                            alt="SnapPaisa Logo" 
                                             style={{ 
                                                 width: '80px', 
                                                 height: 'auto',
@@ -94,7 +94,7 @@ const Footer = () => {
                                             }} 
                                         />
                                         <a 
-                                            href="https://ampirefinance.com/" 
+                                            href="https://snappaisa.com/" 
                                             target="_blank" 
                                             rel="noopener noreferrer"
                                             style={{ 
@@ -249,7 +249,7 @@ const Footer = () => {
                     <div className="footer-bottom">
                         <div className="footer-bottom-content">
                             <div className="copyright">
-                                <p>Copyright@Ampire Finance Private Limited . All rights reserved.</p>
+                                <p>Copyright@SnapPaisa Financial Services . All rights reserved.</p>
                             </div>
                             <div className="security-badges">
                                 <div className="security-badge">

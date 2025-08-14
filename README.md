@@ -1,6 +1,6 @@
 # SnapPaisaWebsite
 
-A modern, responsive React-based website for SnapPaisa, a financial services company offering instant loans and financial solutions.
+A modern, responsive React-based website for SnapPaisa, a leading financial services company offering instant loans, EMI calculations, and comprehensive financial solutions across major Indian cities.
 
 ## 🚀 Features
 
@@ -167,14 +167,14 @@ export const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3000'
 
 ## 📄 License
 
-This project is proprietary software owned by Ampire Finance. All rights reserved.
+This project is proprietary software owned by SnapPaisa. All rights reserved.
 
 ## 📞 Support
 
 For technical support or questions:
-- **Email**: support@ampirefinance.com
+- **Email**: support@snappaisa.com
 - **Phone**: +91-XXXXXXXXXX
-- **Website**: https://ampirefinance.com
+- **Website**: https://snappaisa.com
 
 ## 🔄 Version History
 
