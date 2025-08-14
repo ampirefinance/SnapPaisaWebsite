@@ -1,0 +1,108 @@
+/* Container Styles */
+.loan-features-container {
+    padding: 50px 20px;
+    background: transparent;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Header Styles */
+  .features-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #6C6A6A; /* Soft neutral color */
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    z-index: 10; /* Ensure header is on top */
+  }
+  
+  /* Scrolling Cards Wrapper */
+  .scrolling-cards {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .cards-wrapper {
+    display: flex;
+    animation: scroll 15s linear infinite;
+  }
+  
+  /* Card Styles */
+  .loan-card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    min-width: 250px;
+    max-width: 300px;
+    margin: 0 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .loan-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Center Card Animation */
+  /* .loan-card.center-card {
+    animation: center-card-bounce 1.5s infinite;
+  } */
+  
+  .loan-card .icon {
+    font-size: 50px; /* Larger icon size */
+    color: #6C6A6A; /* Warm neutral tone */
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center; /* Centers icon */
+    align-items: center; /* Centers icon */
+  }
+  
+  .loan-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #4d4a44; /* Darker neutral tone */
+  }
+  
+  .loan-card p {
+    font-size: 14px;
+    color: #7a746d; /* Mid-tone for balance */
+  }
+  
+  /* Animation for Scrolling */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Center Card Bounce Animation */
+  @keyframes center-card-bounce {
+    0%, 100% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .loan-card {
+      min-width: 200px;
+      padding: 15px;
+    }
+  
+    .features-header {
+      font-size: 28px;
+    }
+  }
+  

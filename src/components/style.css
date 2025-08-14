@@ -1,0 +1,93 @@
+/* Container Styling */
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    padding: 2rem;
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Sticky Header Styling */
+.header-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #2c3e50; /* Dark, bold text for the header */
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    position: sticky; /* Makes the header sticky */
+    top: 0; /* Sticks to the top of the viewport */
+    z-index: 10;
+    width: 100%; /* Full-width header */
+    padding: 1rem 0;
+    border-bottom: 2px solid #d1d1d1; /* Subtle border for separation */
+}
+
+/* Paragraph Styling */
+.center-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #34495e;
+    text-align: center; /* Center text horizontally */
+    font-family: "Roboto", sans-serif;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+/* Animation for Lines */
+.center-text.animate-lines span {
+    display: block;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+/* Keyframe Animation */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .header-text {
+        font-size: 2rem;
+    }
+
+    .center-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .center-container {
+        padding: 1.5rem;
+    }
+
+    .header-text {
+        font-size: 1.8rem;
+    }
+
+    .center-text {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-text {
+        font-size: 1.2rem;
+        margin-top: 0;
+        height: auto;
+        /* margin-bottom: -0px; */
+    }
+
+    .center-text {
+        font-size: 0.9rem;
+    }
+}
