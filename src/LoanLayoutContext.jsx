@@ -170,6 +170,7 @@ function LoanLayoutContext({children}) {
     //   })
     // }
   
+    
   return (
     <ContextDashboard.Provider value={{setMessage,message ,logout,setProfileData,setOutData,outdata,setps,setSetps,eligibilityStatus,usertype,setUserType,loader,handleEvent,currentEvent}}>
       <Alert setMessage={setMessage} message={message}  />
